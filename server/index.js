@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import morgan from 'morgan';
@@ -34,6 +35,9 @@ app.use((req, res, next) => {
 
 app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// console.log(__dirname);
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '../client/build')));
