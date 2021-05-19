@@ -12,4 +12,8 @@ By the end of this video, you will have a strong understanding of how the MERN S
 Setup:
 - run ```npm i && npm start``` for both client and server side to start the app
 
+## Advance - https://memories-app-dm.herokuapp.com/
+
+## Frontend - https://memories-app-dm.netlify.app/
+
 ## API - https://memories-api-dm.herokuapp.com/
