@@ -1,19 +1,63 @@
 # Memories
 
-![Memories](https://i.ibb.co/Z8Y0CJv/Screenshot-2020-10-30-at-11-10-04.png)
+Memories Manager (Full-Stack App)
 
-## Introduction
-This is a code repository for the corresponding video tutorial - https://youtube.com/playlist?list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu.
+### Frontend - https://memories-app-dm.netlify.app/
 
-Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called "Memories" and it is a simple social media app that allows users to post interesting events that happened in their lives.
+### API - https://memories-api-dm.herokuapp.com/
 
-By the end of this video, you will have a strong understanding of how the MERN Stack works.
+### Advance - https://memories-app-dm.herokuapp.com/
+
+---
+
+## Features
+
+- Create and Update Memories
+- Like and Delete Memories
+- View Other user's memories
+-  Authentication (Login/Signup) and with (Google)
+- Mobile Responsive
+- Pagination
+
+## TO DO
+
+- Recommended Posts
+- search by hashtags
+- show liked posts
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Javascript and ES+6
+- Material-UI
+- ReactJs
+- Redux, Redux-Thunk
+- NodeJs
+- ExpressJs
+- MongoDB Atlas
+
+## Packages
+
+- Frontend
+- - axios
+- - moment
+- - redux
+- - redux-thunk
+- - @material-ui/core
+- - @material-ui/icons
+- - react-file-base64
+- - react-google-login (for google login feature)
+- - jwt-decode (web tokens decoding)
+
+- Backend
+- - express
+- - mongoose (for managing mongoDB)
+- - cors
+- - dotenv (for environment variables)
+- - nodemon
+- - bcryptjs (for password hashing)
+- - jsonwebtoken (for web tokens and sessions)
 
 Setup:
 - run ```npm i && npm start``` for both client and server side to start the app
-
-## Advance - https://memories-app-dm.herokuapp.com/
-
-## Frontend - https://memories-app-dm.netlify.app/
-
-## API - https://memories-api-dm.herokuapp.com/
